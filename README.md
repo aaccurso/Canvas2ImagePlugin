@@ -35,7 +35,9 @@ function onDeviceReady()
         function(err){
             console.log(err);
         },
-        document.getElementById('myCanvas')
+        document.getElementById('myCanvas'),
+        '/path/to/directory',
+        'filename'
     );
 }
 ```
